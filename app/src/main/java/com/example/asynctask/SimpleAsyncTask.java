@@ -30,4 +30,9 @@ public class SimpleAsyncTask extends AsyncTask<Void,Void,String> {
     protected void onPostExecute(String result) {
         mTextView.get().setText(result);
     }
+
+    @Override
+    protected void onProgressUpdate(Void... values) {
+        super.onProgressUpdate(values);
+    }
 }
