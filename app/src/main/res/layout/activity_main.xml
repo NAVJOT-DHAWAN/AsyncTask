@@ -26,4 +26,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1"/>
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:minHeight="20dip"
+        android:maxHeight="20dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        android:layout_marginTop="30dp" />
 </android.support.constraint.ConstraintLayout>
